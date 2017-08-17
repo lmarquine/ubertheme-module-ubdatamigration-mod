@@ -1,6 +1,6 @@
 <?php
 
-namespace Ubertheme\Ubdatamigration\Helper;
+namespace shis0u\ubertheme-module-ubdatamigration-mod\Helper;
 
 /**
  * Cache helper
