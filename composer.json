@@ -1,5 +1,5 @@
 {
-    "name": "ubertheme/module-ubdatamigration",
+    "name": "shis0u/ubertheme-module-ubdatamigration-mod",
     "description": "N/A",
     "require": {
         "php": "~5.5.0|~5.6.0|~7.0.0",
@@ -16,7 +16,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Ubertheme\\Ubdatamigration\\": ""
+            "shis0u\\ubertheme-module-ubdatamigration-mod\\": ""
         }
     }
 }
