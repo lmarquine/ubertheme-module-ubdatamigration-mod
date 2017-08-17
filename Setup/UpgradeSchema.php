@@ -3,7 +3,7 @@
  * Copyright © 2015 UberTheme. All rights reserved.
  */
 
-namespace Ubertheme\Ubdatamigration\Setup;
+namespace shis0u\ubertheme-module-ubdatamigration-mod\Setup;
 
 use Magento\Framework\App\Filesystem\DirectoryList;
 use Magento\Framework\Setup\UpgradeSchemaInterface;
