@@ -31,7 +31,7 @@ class InstallSchema implements InstallSchemaInterface
             //we will update/save source of this lib at pub folder
             $pubDir = $om->get('Magento\Framework\Filesystem')->getDirectoryRead(DirectoryList::PUB);
             $toolDir = $pubDir->getAbsolutePath('ub-tool/');
-            $helper = $om->get('Ubertheme\Ubdatamigration\Helper\File');
+            $helper = $om->get('shis0u\ubertheme-module-ubdatamigration-mod\Helper\File');
             //delete old source of tool
             $helper->rrmdir($toolDir);
             //copy new source of this tool
