@@ -22,7 +22,7 @@ class UpgradeSchema implements UpgradeSchemaInterface
     {
         $setup->startSetup();
 
-        if (version_compare($context->getVersion(), '1.0.4', '<')) {
+        if (version_compare($context->getVersion(), '1.0.5', '<')) {
             $om = \Magento\Framework\App\ObjectManager::getInstance();
             $reader = $om->get('Magento\Framework\Module\Dir\Reader');
             $sourceDir = $reader->getModuleDir('', 'Ubertheme_Ubdatamigration') . '/lib/';
